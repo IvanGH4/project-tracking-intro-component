@@ -1,0 +1,26 @@
+// Headings, Call-to-actions, Navigation
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap'); //     font-family: 'Barlow Condensed', sans-serif;
+
+// body font
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap'); //    font-family: 'Barlow', sans-serif;
+
+// pallete
+
+$red: hsl(0, 100%, 68%);
+
+$very-dark-blue: hsl(230, 29%, 20%);
+$Dark-grayish-blue: hsl(230, 11%, 40%);
+$Grayish-blue: hsl(231, 7%, 65%);
+$Light-grayish-blue: hsl(207, 33%, 95%);
+
+%flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
